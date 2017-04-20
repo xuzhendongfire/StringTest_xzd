@@ -34,6 +34,11 @@ public class test {
 		String str = "123123";
 		System.out.println(maxString(str));
 	}
+	@Test
+	public void testBigLangChar() {
+		String str = "qwertyuiopasdfghjkzxcvbnm,./1234567890[]AQWERTYUIOASDFGHJKLZXCVBNM<>q";
+		System.out.println(maxString(str));
+	}
 	public static int maxString(String str) {
 		int maxLength = 0;
 		if (str.length() == 0)
