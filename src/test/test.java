@@ -29,6 +29,11 @@ public class test {
 		String str = "absdfghjklwerty121123123";
 		System.out.println(maxString(str));
 	}
+	@Test
+	public void testFourChar() {
+		String str = "123123";
+		System.out.println(maxString(str));
+	}
 	public static int maxString(String str) {
 		int maxLength = 0;
 		if (str.length() == 0)
