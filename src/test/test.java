@@ -19,7 +19,11 @@ public class test {
 		String str = "";
 		System.out.println(maxString(str));
 	}
-
+	@Test
+	public void testOneChar() {
+		String str = "a";
+		System.out.println(maxString(str));
+	}
 	public static int maxString(String str) {
 		int maxLength = 0;
 		if (str.length() == 0)
